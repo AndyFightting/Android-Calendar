@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/title_tv"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/pre_month_bt"
+            android:background="@color/clear"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/next_month_bt"
+            android:background="@color/clear"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <TextView
+        android:background="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="日"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="一"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="二"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="三"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="四"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="五"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="六"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/light_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/count_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

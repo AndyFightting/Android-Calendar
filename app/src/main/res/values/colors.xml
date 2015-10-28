@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#ff0000</color>
+    <color name="light_blue">#a5d2f1</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0072bc</color>
+    <color name="back_gray">#f7f5fb</color>
+    <color name="gray">#959494</color>
+    <color name="green">#89c900</color>
+    <color name="light_gray">#dfe3e6</color>
+    <color name="clear">#00000000</color>
+    <color name="black">#ff000000</color>
+
+    <!--日历-->
+    <color name="calendar_day_default">#222222</color>
+    <color name="calendar_day_weekend">#959494</color>
+    <color name="calendar_day_current">#41b62a</color>
+    <color name="light_green">#d9f1de</color>
+
+</resources>
